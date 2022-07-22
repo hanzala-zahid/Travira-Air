@@ -1,0 +1,97 @@
+.testimonial-section{
+    margin-top: 8rem;
+    background: url(../../assets/Testimonials/testimonials-bg.png) no-repeat right;
+    height: 50rem;
+}
+
+/* .testimonial-section .container{
+    
+
+} */
+.testimonial-section .container .upper-section h1{
+    color: #232323;
+    padding: 2rem 0;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.testimonial-section .container .testimonials{
+    display: flex;
+    margin-top: 5rem;
+    align-items: flex-start;
+    
+    gap: 3rem;
+}
+
+.testimonial-section .container .testimonials .testimonial{
+    background-color: white;
+    width: 40%;
+    border-radius: 30px;
+    box-shadow: 30px 10px 50px rgba(152, 149, 149, 0.3);
+    padding: 32px 25px;
+}
+.testimonial-section .container .testimonials .testimonial .img img{
+    width: 4.5rem;
+}
+.testimonial-section .container .testimonials .testimonial .img{
+    display: flex;
+    align-items: center;
+}
+.testimonial-section .container .testimonials .testimonial .name{
+    margin-left: 2rem;
+}
+.testimonial-section .container .testimonials .testimonial .name h2{
+    font-size: 1.5rem;
+    color: #232323;
+    font-weight: bold;
+}
+.testimonial-section .container .testimonials .testimonial .name h6{
+    font-size: 1rem;
+    margin-top: .4rem;
+    font-weight: lighter;
+    color: #9C9C9C;
+}
+.testimonial-section .container .testimonials .testimonial p{
+    margin-top: 1.2rem;
+    color: black;
+    font-size: 1.2rem;
+}
+.testimonial-section .container .testimonials .testimonial .star{
+    font-size: 1.3rem;
+    margin-top: .8rem;
+    color: #FFAB2E;
+}
+@media only screen and (max-width: 1200px){
+    .testimonial-section .container{
+        padding: 0 1rem;
+    }
+}
+@media only screen and (max-width: 860px){
+    .testimonial-section .container .testimonials{
+        flex-direction: column;
+    }
+    .testimonial-section .container .testimonials .testimonial .img{
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+    .testimonial-section .container .testimonials .testimonial .img img{
+        text-align: center;
+    }
+    
+    .testimonial-section{
+        height: 70rem;
+    }
+    .testimonial-section .container .testimonials .testimonial {
+        width: 100%;
+        justify-content: center;
+    }
+    .testimonial-section .container .testimonials .testimonial .img .name{
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    .testimonial-section .container .upper-section h1{
+        text-align: center;
+        font-size: 2rem;
+    }
+}

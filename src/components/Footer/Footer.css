@@ -1,0 +1,33 @@
+.footer-section .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem .5rem;
+}
+.footer-section .container .class h2{
+    color: #0E1035;
+    margin-bottom: 1.5rem;
+}
+.footer-section .container .class ul li{
+    margin-bottom: .5rem;
+}.footer-section .container .class ul li a{
+    text-decoration: none;
+    color: #0E1035;
+}
+@media only screen and (max-width: 720px) {
+    .footer-section .container{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 0 0;
+    }
+    .footer-section .container img{
+        margin-bottom: 1rem;
+        margin-left: 40%;
+
+    }
+    .footer-section .container .class{
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    }
+}

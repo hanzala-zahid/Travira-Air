@@ -1,0 +1,50 @@
+.fleet-section{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.fleet-section .container h1{
+    text-align: center;
+    color: #0E1035;
+    font-size: 3rem;
+    padding: 2rem;
+}
+.fleet-section .container p{
+    text-align: center;
+    margin-top: .3rem;
+    
+}
+.fleet-section .container .fleet-images{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.fleet-section .container .fleet-images .fleet-img{
+    box-shadow: 0px 4px 50px rgba(116, 116, 116, 0.25);
+    border-radius: 21px 21px 21px 21px;
+}
+.fleet-section .container .fleet-images .fleet-img img{
+    width: 20rem;
+    
+}
+.fleet-section .container .fleet-images .fleet-img h2{
+    text-align: center;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    
+}
+
+@media only screen and (max-width: 1130px) {
+    .fleet-section .container .fleet-images{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .fleet-section .container .fleet-images .fleet-img{
+        margin-top: 2rem;
+        width: 20rem;
+        
+    }
+
+}

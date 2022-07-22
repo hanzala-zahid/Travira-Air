@@ -1,0 +1,122 @@
+.services-section{
+    background-color: #0E1035;
+    width: 100%;
+    margin-top: 18rem;
+   
+    padding: 1rem;
+}
+.services-section .container{
+    margin-bottom: 4rem;
+}
+.services-section .container .first-para{
+    text-align: center;
+    padding: 3rem 0;
+    font-size: 1.4rem;
+    color: white;
+}
+.services-section .container .first-para span{
+    color: #2F80ED;
+    font-weight: bold;
+}
+.services-section .container .logos{
+    /* width: 100%; */
+    display: grid;
+    grid-template-rows: center;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 2fr)) ;
+    justify-content: center;
+    align-items: center;
+    
+    grid-gap: 2rem;
+}
+.services-section .container .logos > *{
+    width: 13rem;
+   
+}
+.services-section .container .logos .logo1{
+    width: 5rem;
+    margin-left: 5rem;
+}
+.services-section .container .services-bottom{
+    display: flex;
+    margin-top: 5rem;
+}
+.services-section .container .services-bottom .services-left img{
+    width: 100%;
+}
+.services-section .container .services-bottom .services-right{
+    /* width: 40rem; */
+    margin-left: 8rem;
+}
+.services-section .container .services-bottom .services-right h1{
+    color: white;
+    font-size: 2.7rem;
+}
+.services-section .container .services-bottom .services-right h1 span{
+    color: #2F80ED;
+}
+.services-section .container .services-bottom .services-right p{
+    color: #BDBBBB;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
+.services-section .container .services-bottom .services-right .services-links{
+    /* width: 100%; */
+    margin-top: 2rem;
+    display: grid;
+    grid-gap: 1rem 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 2fr));
+}
+.services-section .container .services-bottom .services-right .services-links a{
+    color: white;
+    font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 940px){
+    .services-section .container{
+        padding: 0 2rem;
+    }
+    .services-section .container .logos > *{
+        width: 8rem;
+    }
+    .services-section .container .logos{
+        
+        margin-left: 5rem;
+        grid-gap: 1rem 0;
+    }
+    .services-section .container .logos .logo1{
+        margin-left: 0;
+    }
+   .services-section .container .services-bottom{
+       flex-direction: column;
+   }
+   .services-section .container .services-bottom .services-left{
+       width: 100%;
+       text-align: center;
+      
+       
+   }
+   .services-section .container .services-bottom .services-left img{
+        margin: 0 auto;
+       
+       
+   }
+   .services-section .container .services-bottom .services-right{
+      margin: 0 auto;
+       
+   }
+   .services-section .container .services-bottom .services-right h1{
+       text-align: center;
+       margin-top: 2rem;
+   }
+   .services-section .container .services-bottom .services-right p{
+       text-align: center;
+   }
+   
+   .services-section .container .services-bottom .services-right .services-links a{
+       font-size: 1rem;
+       
+   }
+   .services-section{
+       margin-top: 5rem;
+   }
+}
